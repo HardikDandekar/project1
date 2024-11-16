@@ -1,0 +1,201 @@
+@media (max-width: 600px){
+    
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+         display: inline;
+    }
+    nav > .navleft,.navright {
+        border: 2px solid #f3f3f3;
+        display: flex;
+        align-items: center;
+        margin: 1.5%  1.5%;
+        background-color: white;
+        width: 43%;
+        height: 6vh;
+        font-size: 5vh;
+        border-radius: 4vh;
+
+    }
+    nav > .navleft i{
+        font-size: 4vh;
+    }
+
+    nav > .navleft span , .navright span{
+        font-size: 1.5vh;
+        padding: 1.5vh;
+      font-weight: 600;
+     
+    }
+
+    .view{
+        margin-top: 0.1vh;
+        background-color: black;
+        height: 5vh;
+        /* margin: 1.5vh; */
+        color: white;
+        border-radius: 4vh;
+        margin-left: 2vh;
+        width: 27%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .view span{
+        font-weight: 100;
+        font-size: 1.3vh;
+    }
+
+    .box-in{
+        display: inline-block;
+        width: 100%;
+    }
+    .left{
+        margin-top: 8%;
+        width: 50%;
+        height: 100%;
+    }
+    .left p{
+        font-size: 1.5vh;
+        margin-left: 4%;
+        margin-bottom: 1%;
+    }
+    .left h1{
+        margin-left: 2%;
+        font-size: 7vh;
+        font-weight: 100;
+        line-height: 7vh;
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+      
+    }
+    .right  img{
+        height: 25vh;
+        margin-top: 50%;
+    }
+    .box2{
+        width: 100%;
+        height: 45%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box2 h1{
+        text-align: center;
+        font-size: 5vh;
+        font-weight: 500;
+        line-height: 5vh;
+    }
+    .box2 img{
+        border: 1px solid black;
+        height: 5vh;
+        border-radius: 50%;
+    }
+    .box2 .im{
+        border-radius: 50%;
+        width: 8vw;
+     }
+
+     .box3{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+       
+        
+    }
+    .box3 .box3L{
+        width: 35%;
+       
+    }
+    .box3 .box3L img{
+        margin-left: 90%;
+        border: 0.2vh solid cadetblue;
+        height: 30vh;
+        width: 100%;
+        border-radius: 8%;
+        margin-bottom: 40%;
+    }
+    .box3 .box3R{
+        width: 100%;
+        height: 80%;
+       
+    }
+    .box3 .line1 , .line2 , .line3{
+        
+        border-bottom: 0.2vh solid #f0f0f0;
+        margin-left: 10%;
+        margin-bottom: 10%;
+
+    }
+    .box3 .box3R h1{
+        padding: 2vh 0;
+        width: 140%;
+        font-size: 2.5vh;
+        font-weight: 570;
+        
+    }
+    .box3  p{
+        font-size: 2.3vh;
+        padding: 2vh;
+        width: 100%;
+    }
+    .box3 i{
+        border: 0.3vh solid #e1dede;
+        border-radius: 50%;
+        font-weight: 100;
+        font-size: 3.5vh;
+        margin-right: 2vh;
+    }
+    .box3R-d{
+        width: 100%;
+        height: 37%;
+        display: flex;
+   
+    }
+    .box3R-d .dL{
+        width: 50%;
+        
+    }
+    .box3R-d .dL h2{
+        font-size: 2.5vh;
+        margin-top: 30%;
+        font-weight: 300;
+        margin-left: 10%;
+        
+    }
+    .box3R-d .dR{
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+    }
+    .box3R-d .dR .container{
+        width: 56%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        height: 85%;
+        background-color: #00c66f;
+        border-radius: 5vh;
+    }
+    .container h2{
+        font-size: 5vh;
+        color: white;
+        margin-left: 4vh;
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+    .container p{
+        font-size: 1.8vh;
+        color: white;
+        font-weight: 100;
+    }
+    
+    
+    
+}
